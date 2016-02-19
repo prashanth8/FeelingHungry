@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+
+    android:background="@drawable/edit_text_background"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:textStyle="bold"
+android:padding="5dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:textColor="#DD2C00"
+        android:id="@+id/foodTitleEt" />
+
+
+    <View android:layout_height="1dp" android:layout_width="match_parent" android:background="#9E9E9E"></View>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Quantity:"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:id="@+id/textView12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1"
+            android:textColor="#424242"
+            android:layout_marginLeft="5dp"
+            android:textSize="14sp"
+            android:id="@+id/foodQuantityTvId"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Delivery point:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:id="@+id/textVdiew12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="xxx"
+            android:layout_marginLeft="5dp"
+            android:textSize="14sp"
+            android:textColor="#424242"
+            android:id="@+id/foodDeliveryPointTvId"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Delivery time:"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:id="@+id/textdVdiew12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="8 pm to 10 pm"
+            android:layout_marginLeft="5dp"
+            android:textSize="14sp"
+            android:textColor="#424242"
+            android:id="@+id/foodDeliveryTimeTvId"
+            android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Order status:"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:id="@+id/textdddVdiew12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Received"
+            android:layout_marginLeft="5dp"
+            android:textSize="14sp"
+            android:textColor="#00C853"
+            android:id="@+id/foodOrderStatusTvId"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Total price: 60 Rs"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+
+        android:gravity="center"
+        android:textColor="#4CAF50"
+        android:background="@drawable/edit_text_background"
+        android:id="@+id/foodTotalPriceTvId" />
+</LinearLayout>
